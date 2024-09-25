@@ -74,6 +74,8 @@ nav ul li a {
 
 .banner p{
     margin: 25px;
+    font-size: 1.3rem;
+    line-height: 30px;
 }
 
 .btn {
@@ -293,7 +295,6 @@ footer {
     }
     .banner {
         height: auto;
-        border: 1px solid red;
         display: flex;
         margin: auto;
         justify-content: center;
@@ -308,25 +309,26 @@ footer {
     }
     
     .banner p{
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 15px 0 25px 0;
+        font-size: 1.3rem;
+        line-height: 30px;
     }
     #sobre{
         margin-top: 15px;
         margin: auto;
         height: auto;
-        border: 1px solid green;
     }
     .container-sobre{
         display: block;
 
     }
     .sobre-img{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     .sobre-img img{
         display: block;
-        width: 720px;
         height: 250px;
     }
     .sobre-texto{
@@ -352,7 +354,6 @@ footer {
     }
     .banner {
         height: auto;
-        border: 1px solid red;
         display: flex;
         margin: auto;
         justify-content: center;
@@ -367,13 +368,15 @@ footer {
     }
     
     .banner p{
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 15px 0 25px 0;
+        font-size: 1.1rem;
+        line-height: 25px;
     }
     #sobre{
         margin-top: 15px;
         margin: auto;
         height: auto;
-        border: 1px solid green;
     }
     .container-sobre{
         display: block;
@@ -394,7 +397,7 @@ footer {
         width: 100%;
         line-height: 25px;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .sobre-texto h2{
         text-indent: 0;
@@ -425,7 +428,10 @@ footer {
     }
     
     .banner p{
-        margin-bottom: 20px;
+        width: 100%;
+        margin: 15px 0 25px 0;
+        font-size: 1.1rem;
+        line-height: 25px;
     }
     #sobre{
         margin-top: 15px;
@@ -444,14 +450,13 @@ footer {
         height: 180px;
     }
     .sobre-texto{
-        width: 90%;
         margin: auto;
     }
     .sobre-texto p{
         width: 100%;
-        line-height: 20px;
+        line-height: 25px;
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .sobre-texto h2{
         text-indent: 0;
