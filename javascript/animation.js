@@ -1,8 +1,8 @@
-// animação da img "sobre"
-
+// animação de entrada
 const sobreImg = document.querySelector('.sobre-img');
 const sobreTexto = document.querySelector('.sobre-texto');
 const banner = document.querySelector('.banner');
+const servico = document.querySelector('.servico li')
 
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
@@ -16,4 +16,4 @@ const observer = new IntersectionObserver((entries, observer) => {
 observer.observe(sobreImg);
 observer.observe(sobreTexto);
 observer.observe(banner);
-// animação da texto "sobre"
+observer.observe(servico)

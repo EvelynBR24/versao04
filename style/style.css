@@ -19,7 +19,7 @@ main{
 
 /* Cabeçalho */
 header {
-    background-color: #6a3d10;
+    background-color: #6a3d10dc;
     color: white;
     width: 100%;
     text-align: center;
@@ -30,13 +30,19 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 1rem;
 }
 
 nav ul li a {
+    display: inline-block;
     color: white;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 5px;
     text-decoration: none;
+    transition: transform 0.3s ease;
+    will-change: transform 0.1s ease;
 }
 .banner {
     height: auto;
@@ -168,12 +174,42 @@ ul {
 ul li {
     margin: 0.5rem 0;
 }
+
+.servico{
+    display: flex;
+}
 .servico li{
     margin: auto;
     margin-bottom: 15px;
+    height: auto;
+    padding: 15px;
+    margin-left: 15px;
+    width: 100%;
     border-radius: 10px;
     border: 1px solid black;
-    max-width: 320px;
+}
+.servico a{
+    color: #000000;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid #333;
+    text-decoration: none;
+    margin: 10px;
+    list-style: none;
+}
+.servico p{
+    margin: 8px 0 0 0;
+    padding: 0;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+.servico h2{
+    padding: 0;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
 }
 
 /* Contatos */
@@ -220,6 +256,24 @@ footer {
     opacity: 1;
 }
 
+/* hover */
+@media (min-width: 768px){
+    .servico a:hover{
+        background: #000000;
+        color: #ffffff;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .menu li a:hover{
+        transform: scale(1.1);
+        background: #000000;
+        backface-visibility: hidden;
+    }
+    .btn:hover{
+        transform: scale(1.1);
+    }
+}
 /* media queries */
 
 @media (max-width: 768px){
