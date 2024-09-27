@@ -185,7 +185,7 @@ ul.servico li {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    transform: translateX(-60%);
+    transform: translateX(-30%);
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
 }
 
