@@ -152,9 +152,6 @@ nav ul li a {
     transition: transform .7s ease-out, opacity 1s ease-out;
 }
 /* Seções */
-section {
-    padding: 20px;
-}
 
 section h2 {
     margin-bottom: 1.5rem;
