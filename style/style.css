@@ -25,6 +25,7 @@ header {
     text-align: center;
 }
 nav ul {
+    display: inline-block;
     margin-top: 15px;
     list-style: none;
 }
@@ -80,7 +81,7 @@ nav ul li a {
     transition: transform 1s ease-out, opacity 1s ease-out;
 }
 .btn {
-    background-color: #ff6600;
+    background-color: #7c2f21;
     color: white;
     padding: 0.75rem 1.25rem;
     border-radius: 5px;
@@ -172,13 +173,17 @@ ul li {
     margin: 0.5rem 0;
 }
 /* serviço */
+.container-servico{
+    margin-top: 30px;
+}
 ul.servico {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     list-style-type: none;
 }
 ul.servico li {
-    max-width: 620px;
+    max-width: 420px;
     background-color: #f4f4f4;
     border-radius: 10px;
     margin: 10px;
@@ -187,6 +192,14 @@ ul.servico li {
     opacity: 0;
     transform: translateX(-30%);
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+.servico a{
+    text-decoration: none;
+    color: #ffffff;
+    background: tomato;
+    border-radius: 10px;
+    padding: 6px;
+    font-weight: bold;
 }
 
 /* Contatos */
@@ -240,7 +253,7 @@ ul.servico li.animate {
 /* hover */
 @media (min-width: 768px){
     .servico a:hover{
-        background: #000000;
+        background: #7c2f21;
         color: #ffffff;
         border: 1px solid #ffffff;
         border-radius: 10px;
@@ -248,7 +261,7 @@ ul.servico li.animate {
     }
     .menu li a:hover{
         transform: scale(1.1);
-        background: #000000;
+        background: #7c2f21;
         backface-visibility: hidden;
     }
     .btn:hover{
